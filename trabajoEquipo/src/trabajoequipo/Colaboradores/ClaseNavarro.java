@@ -49,5 +49,6 @@ public class ClaseNavarro {
 
         scanner.close();
         System.out.println("👋 Gracias por jugar.");
+        System.out.println("Adios");
     }
 }
