@@ -66,6 +66,8 @@ public class ClaseParedes {
         scanner.close();
         ClaseAguilar erick = new ClaseAguilar();
         erick.calificar(10);
+        erick.calificarP(10);
+        System.out.println("La nota de parcial de Erick Aguilar es: "+ erick.getNotaparcial1());
     }
 }
 
