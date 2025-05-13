@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class ClaseLlerena {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         Random rand = new Random();
         // Lista de palabras
         String[] palabras = {
@@ -44,7 +44,7 @@ public class ClaseLlerena {
 
             // Leer letra
             System.out.print("Introduce una letra: ");
-            String linea = sc.nextLine().toLowerCase();
+            String linea = leer.nextLine().toLowerCase();
             if (linea.isEmpty()) {
                 System.out.println("Por favor, introduce al menos un carácter.");
                 continue;
@@ -85,6 +85,6 @@ public class ClaseLlerena {
             System.out.println("😢 Se acabaron los intentos. La palabra era: " + palabra);
         }
 
-        sc.close();
+        leer.close();
     }
 }
