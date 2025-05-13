@@ -64,6 +64,8 @@ public class ClaseParedes {
         }
 
         scanner.close();
+        ClaseAguilar erick = new ClaseAguilar();
+        erick.calificar(10);
     }
 }
 
